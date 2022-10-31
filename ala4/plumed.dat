@@ -1,0 +1,15 @@
+# vim:ft=plumed
+
+phi1: TORSION ATOMS=5,7,9,15
+phi2: TORSION ATOMS=15,17,19,25
+phi3: TORSION ATOMS=25,27,29,35
+psi1: TORSION ATOMS=7,9,15,17
+psi2: TORSION ATOMS=17,19,25,27
+psi3: TORSION ATOMS=27,29,35,37
+
+opes: OPES_METAD TEMP=300 ARG=phi1,phi2,phi3 PACE=500 BARRIER=40 NLIST
+
+PRINT FILE=COLVAR STRIDE=500 FMT=%g ARG=*
+    
+ENDPLUMED
+file generated automatically when running the notebook

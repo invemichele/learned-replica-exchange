@@ -1,0 +1,17 @@
+# vim:ft=plumed
+
+UNITS NATURAL
+
+ene: ENERGY
+p: POSITION ATOM=1
+
+ecv: ECV_MULTITHERMAL ARG=ene TEMP_MAX=5 TEMP_STEPS=6
+opes: OPES_EXPANDED ARG=ecv.ene PACE=100
+
+PRINT FMT=%g STRIDE=100 FILE=COLVAR ARG=p.x,p.y,ene,opes.bias
+
+ENDPLUMED
+
+PLUMED input equivalent to what done in OPES-dw.ipynb
+This cannot be used with openmm-plumed, because ENERGY is not supported
+It is provided only for reference

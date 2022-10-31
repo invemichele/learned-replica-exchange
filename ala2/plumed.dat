@@ -1,0 +1,16 @@
+# vim:ft=plumed
+
+phi: TORSION ATOMS=5,7,9,15
+psi: TORSION ATOMS=7,9,15,17
+ene: ENERGY
+
+ecv: ECV_MULTITHERMAL ARG=ene TEMP_MAX=1000
+opes: OPES_EXPANDED ARG=ecv.ene PACE=500
+
+PRINT FMT=%g STRIDE=500 FILE=COLVAR ARG=phi,psi,ene,opes.bias
+
+ENDPLUMED
+
+PLUMED input equivalent to what done in OPES-ala2.ipynb
+This cannot be used with openmm-plumed, because ENERGY is not supported
+It is provided only for reference
