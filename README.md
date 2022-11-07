@@ -4,6 +4,8 @@ Code to reproduce the paper [Skipping the replica exchange ladder with normalizi
 
 The systems studied are: a multidimensional double-well (dw), alanine dipeptide (ala2), and alanine tetrapeptide (ala4).
 
+![GraphicTOC](https://user-images.githubusercontent.com/14904699/200288098-697d8cb9-2b01-48b1-abb9-dcd1902d4aef.png)
+
 ## Requirements
 - [bgflow](https://github.com/noegroup/bgflow)
 - [bgmol](https://github.com/noegroup/bgmol)
