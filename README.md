@@ -13,6 +13,6 @@ The systems studied are: a multidimensional double-well (dw), alanine dipeptide 
 - [plumed](https://plumed.org) and [openmm-plumed](https://github.com/openmm/openmm-plumed) for the reference simulations with [OPES](https://www.plumed.org/doc-master/user-doc/html/_o_p_e_s.html)
 
 ## Quick start
-A self-contained [Google Colab notebook](https://colab.research.google.com/drive/1mugRHXt81hZ2xV9t3iEdhU_D_no1JpdG?usp=sharing) is also available.
+A self-contained Google Colab notebook is also available: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/invemichele/learned-replica-exchange/blob/main/Colab-LREX_alanine.ipynb)
 
 [**TODO**: add link to output data]
