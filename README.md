@@ -1,6 +1,6 @@
 # Learned replica exchange (LREX)
 
-Code to reproduce the paper [Skipping the replica exchange ladder with normalizing flows](https://arxiv.org/abs/2210.14104).
+Code to reproduce the paper [Skipping the replica exchange ladder with normalizing flows](https://pubs.acs.org/doi/10.1021/acs.jpclett.2c03327). [![arXiv](https://img.shields.io/badge/arXiv-2210.14104-b31b1b.svg)](https://arxiv.org/abs/2210.14104)
 
 The systems studied are: a multidimensional double-well (dw), alanine dipeptide (ala2), and alanine tetrapeptide (ala4).
 
