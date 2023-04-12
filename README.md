@@ -15,4 +15,7 @@ The systems studied are: a multidimensional double-well (dw), alanine dipeptide 
 ## Quick start
 A self-contained Google Colab notebook is also available: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/invemichele/learned-replica-exchange/blob/main/Colab-LREX_alanine.ipynb)
 
-[**TODO**: add link to output data]
+## Errata corrige
+There is an error in the paragraph just after eq 3 of the paper. For two times the words "prior" and "target" have been switched.
+
+Thus $x_p \sim p(x)$ and $x_q \sim q(x)$, and the target continues from $f(x_q)$ and the prior from $f^{-1}(x_p)$, not vice versa as wrongly stated in the paper.
